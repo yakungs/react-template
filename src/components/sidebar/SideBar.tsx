@@ -1,4 +1,3 @@
-import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
@@ -8,6 +7,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { Outlet } from "react-router-dom";
 import Header from "../header/Header";
+import { Box } from "@mui/material";
 import { Typography } from "@mui/material";
 
 const drawerWidth = 240;
