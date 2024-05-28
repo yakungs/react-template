@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Inter_Black';
+  src: local('Inter_Black'), local('Inter_Black'), url("../fonts/Inter_Black.ttf") format('truetype');
+}
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

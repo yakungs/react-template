@@ -3,7 +3,6 @@ import breakpoints from "./base/breakpoints";
 import palette from "./base/palette";
 import typography from "./base/typography";
 import card from "./components/card";
-import cssBaseline from "./components/cssBaseline";
 import input from "./components/input";
 
 export default createTheme({
@@ -12,7 +11,6 @@ export default createTheme({
     palette: { ...palette },
 
     components: {
-        MuiCssBaseline: { ...cssBaseline },
         MuiInput: { ...input },
         MuiCard: { ...card },
     }

@@ -1,3 +1,7 @@
 export default function ProfileScreen() {
-  return <div>ProfileScreen</div>;
+  return (
+    <div>
+      <p style={{ fontFamily: "Inter_Black" }}>ProfileScreen</p>
+    </div>
+  );
 }
